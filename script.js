@@ -8,13 +8,14 @@ for (let i=0; i<uzvaretajuSkaits; i++){
 let rand = Math.random() * vardi.length;
 rand = Math.floor(rand);
 let uzvaretajs = vardi[rand];
-
-}
 let rindas = document.querySelector('.rindas'); //pievieno mainīgo
 rindas.innerHTML +=` //pievieno +, lai pieskatītu nākamo
 <tr>
     <td>${i+1}</td> // $norāda mainīgo
     <td>${uzvaretajs}</td>
 </tr>` //izveide vairākās rinās
+
+}
+
 
 
