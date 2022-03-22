@@ -3,8 +3,8 @@ const balvas = ['Dators', 'Telefons', 'Leduskapis', 'Fotoaparāts', 'Kafijas aut
 const naudaKopa = 1000000;
 let uzvaretajuSkaits = 5;
 
-let rindas = document.querySelector("rindas"); //pievieno mainīgo
-rindas.innerHTML = "";
+let rindas = document.querySelector(".rindas"); //pievieno mainīgo
+rindas.innerHTML = ' ';
 
 for (let i = 0; i < uzvaretajuSkaits; i++) {
 
